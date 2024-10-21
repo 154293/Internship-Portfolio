@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFF2CC; */
+    background-color: red;
+    /* border: 3px solid #D6B656; */
+    /* height: 3000px; */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #F8CECC;
+    border: 2px solid #B85450;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header a {
+    width: 7%;
+    min-width: 30px;
+}
+
+header a img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+header h1 {
+    margin-left: 3%;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #D5E8D4;
+    border: 2px solid #82B366;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+}
+
+nav a:hover {
+    background-color: #82B366;
+    color: white;
+}
+
+.activenav {
+    background-color: #82B366;
+    color: white;
+}
+
+main {
+    background-color: #DAE8FC;
+    border: 2px solid #6C8EBF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section {
+    background-color: #F5F5F5;
+    border: 2px solid #666666;
+    /* margin: 0 3% 0 3%; */
+}
+
+article {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    margin: 3%;
+}
+
+article a {
+    text-decoration: none;
+    font-family: Arial;
+    color: rgb(50, 133, 48);
+}
+
+aside {
+    background-color: #FFE6CC;
+    border: 2px solid #D79B00;
+}
+
+footer {
+    background-color: #E1D5E7;
+    border: 2px solid #9673A6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerdiv {
+    width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E1D5E7;
+}
+
+footer a:hover {
+    cursor: default;
+}
+
+.sectiondiv {
+    /* background-color: lightblue; */
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.sectiondiv> :nth-child(1),
+.sectiondiv> :nth-child(2),
+.sectiondiv> :nth-child(3) {
+    margin-bottom: 3%;
+}
+
+.sectiondiv> :last-child {
+    margin-bottom: 0%;
+}
+
+aside {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside a {
+    width: 80%;
+}
+
+aside a:hover {
+    cursor: default;
+}
+
+aside img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.asidediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.asidediv p {
+    padding: 5%;
+}
+
+.sectiondiv,
+aside {
+    margin: 3% 0 3% 3%;
+}
+
+article {
+    padding: 0 2%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.formdiv {
+    margin: 1%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    margin-left: 2%;
+}
+
+p {
+    font-family: arial;
+}
+
+h1 {
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {}

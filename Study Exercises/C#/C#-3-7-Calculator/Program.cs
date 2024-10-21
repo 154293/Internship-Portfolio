@@ -42,7 +42,7 @@ if (operatie == "+" || operatie == "-" || operatie == "*" || operatie == "/" || 
                 resultaat = getal1 * getal2;
                 break;
         }
-        string output = resultaat.ToString("0.############");    //my attempt at making the float output work (it didn't)
+        string output = resultaat.ToString("0.00");    //my attempt at making the float output work (it didn't)
         Console.WriteLine("Resultaat: " + output);
     }
     else if (operatie == "/" || operatie == "%")
