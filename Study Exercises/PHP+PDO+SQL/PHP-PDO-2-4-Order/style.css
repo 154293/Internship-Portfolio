@@ -1,0 +1,27 @@
+body {
+    background-color: #111828;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+th,
+td {
+    background-color: #202938;
+}
+
+.t1,
+.t2 {
+    width: 20%;
+}
+
+table {
+    width: 100%;
+}
+
+.details {
+    width: 50%;
+    padding: 1%;
+    border: 5px solid goldenrod;
+}
