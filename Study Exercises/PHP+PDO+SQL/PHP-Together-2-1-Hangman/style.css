@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#win {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+img {
+    display: block;
+}
+
+body:not(img) {
+    order: 1;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: x-large;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+#restart {
+    width: 200px;
+}
+
+input {
+    padding: 7px;
+    text-transform: capitalize;
+    font-size:large;
+}
