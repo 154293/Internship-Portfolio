@@ -1,0 +1,40 @@
+body {
+    background-color: hotpink;
+    color: yellow;
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.box1 > h5 {
+    margin: 0;
+}
+
+.box2 {
+    width: 100%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.read {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mountain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    border: 1px solid;
+}
