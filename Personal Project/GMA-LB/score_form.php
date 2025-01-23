@@ -11,8 +11,8 @@
     require_once 'connection.php';
     ?>
 
-    <table>
-        
-    </table>
+    <form>
+        <input>
+    </form>
 
 </body>
